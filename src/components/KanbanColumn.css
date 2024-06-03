@@ -1,0 +1,41 @@
+.columnContainer {
+  width: 400px;
+  height: max-content;
+  min-height: 80vh;
+  margin-top: 5rem;
+  padding: 0 0rem 1rem 0rem;
+  border-radius: 1rem;
+  background-color: #4caf50;
+}
+
+.columnHeading {
+  margin: 0;
+  padding: 1rem;
+  border-radius: 1rem 1rem 0 0;
+  display: flex;
+}
+
+.todo {
+  background-color: #ffa500;
+}
+
+.doing {
+  background-color: #00ffff;
+}
+
+.done {
+  background-color: #ff00ff;
+}
+
+.addButton {
+  width: 100%;
+  font-size: 1.25rem;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+.addButton:hover {
+  cursor: pointer;
+}
