@@ -89,7 +89,7 @@ const addTask = (task:string) => {
   {showInput && <div className="inputForm">
     <form onSubmit={() => addTask(task)}>
       <label>Enter a task</label>
-      <input className="taskInput" name='task' type='text' value={task} onChange={(e) => setTask(e.target.value)} placeholder='Do homework'/>
+      <input className="taskInput" name='task' type='text' value={task} onChange={(e) => setTask(e.target.value)} placeholder='Do homework' required/>
     </form>
     </div>}
 

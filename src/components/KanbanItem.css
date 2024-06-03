@@ -5,14 +5,22 @@
   padding: 0.5rem;
   margin-bottom: 0.5rem;
   border-radius: 0.25rem;
-  border: 1px solid #ffffff;
+}
+
+.task {
+  color: white;
 }
 
 .itemButton {
   background: none;
   border: none;
+  color: #aac7ff;
 }
 
 .itemButton:hover {
   cursor: pointer;
+}
+
+.icon {
+  color: #aac7ff;
 }

@@ -5,7 +5,7 @@
   margin-top: 5rem;
   padding: 0 0rem 1rem 0rem;
   border-radius: 1rem;
-  background-color: #4caf50;
+  background-color: #1d2024;
 }
 
 .columnHeading {
@@ -16,15 +16,15 @@
 }
 
 .todo {
-  background-color: #ffa500;
+  background-color: #573e5c;
 }
 
 .doing {
-  background-color: #00ffff;
+  background-color: #254777;
 }
 
 .done {
-  background-color: #ff00ff;
+  background-color: #5d865d;
 }
 
 .addButton {
@@ -32,7 +32,7 @@
   font-size: 1.25rem;
   border: none;
   background-color: transparent;
-  color: #ffffff;
+  color: #aac7ff;
   margin-top: 1rem;
 }
 

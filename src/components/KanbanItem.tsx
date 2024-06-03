@@ -22,7 +22,7 @@ function KanbanItem({task,onDeleteClick, onMoveClick, column}: Props) {
         </button> : null}
         {column === "done" && isHovered ? 
         <button className='itemButton' onClick={onDeleteClick}>
-            <img src='src\assets\delete_24dp_FILL0_wght400_GRAD0_opsz24.svg'/>
+            <img src='src\assets\delete_24dp_FILL0_wght400_GRAD0_opsz24.svg' className='icon'/>
         </button> : null}
     </div>
   )
