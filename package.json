@@ -4,10 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "http://Marvin0707.github.io/KanbanBoard",
-  "build-prod": "parcel build src/index.html --dist-dir build",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
