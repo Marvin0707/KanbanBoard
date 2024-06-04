@@ -18,11 +18,11 @@ function KanbanItem({task,onDeleteClick, onMoveClick, column}: Props) {
         <p className="task">{task}</p>
         {(column === "backlog" || column === "doing") && isHovered ? 
         <button className='itemButton' onClick={onMoveClick}>
-        <img src='dist\assets\arrow_forward_24dp_FILL0_wght400_GRAD0_opsz24.svg'/>
+        <img src='arrow_forward_24dp_FILL0_wght400_GRAD0_opsz24.svg'/>
         </button> : null}
         {column === "done" && isHovered ? 
         <button className='itemButton' onClick={onDeleteClick}>
-            <img src='dist\assets\delete_24dp_FILL0_wght400_GRAD0_opsz24.svg' className='icon'/>
+            <img src='delete_24dp_FILL0_wght400_GRAD0_opsz24.svg' className='icon'/>
         </button> : null}
     </div>
   )
