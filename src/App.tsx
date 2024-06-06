@@ -6,7 +6,7 @@ import ProjectMenu from './components/ProjectMenu';
 function App() {
 
   const [isMenuOpen,setMenuOpen] = useState(false)
-  const [projects,setProjects] = useState(["1","2","3"])
+  const [projects,setProjects] = useState(["My first Project"])
   const [activeProject, setActiveProject] = useState(projects[0])
   const addProject = (project:string) => {
     setProjects([...projects, project])

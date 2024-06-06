@@ -8,10 +8,10 @@
 }
 
 .projectInput {
-  width: 80%;
+  width: 90%;
   height: 2rem;
   background-color: #1d2024;
-  border: 1px solid white;
+  border: 1px solid #aac7ff;
   border-radius: 0.25rem;
   color: white;
 }
