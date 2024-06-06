@@ -1,0 +1,46 @@
+.instanceContainer {
+  display: flex;
+  min-height: 100dvh;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.taskInput {
+  width: 100%;
+  height: 2rem;
+  background-color: #1d2024;
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+}
+
+label {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.inputForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20vw;
+  height: 10vh;
+  padding: 2rem;
+  background-color: #111318;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .inputForm {
+    width: 80dvw;
+  }
+}
+
+form {
+  display: grid;
+  align-items: center;
+}
