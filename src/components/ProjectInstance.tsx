@@ -91,7 +91,7 @@ const addTask = (task:string) => {
           <KanbanItem task={item} onMoveClick={() => handleMoveBacklog(index)} column='backlog'/>
         ))}
     </KanbanColumn>
-    <KanbanColumn heading='Doing'>
+    <KanbanColumn heading='In Progress'>
     {doing.map((item:string, index:number) => (
           <KanbanItem task={item} onMoveClick={() => handleMoveDoing(index)} column='doing'/>
         ))}
